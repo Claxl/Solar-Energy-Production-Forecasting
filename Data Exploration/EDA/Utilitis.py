@@ -13,22 +13,20 @@ def readData(location):
     X_test_est_A = pd.read_parquet('data/A/X_test_estimated.parquet')
     X_train_est_A = pd.read_parquet('data/A/X_train_estimated.parquet')
     X_train_obs_A = pd.read_parquet('data/A/X_train_observed.parquet')
-    X_a = pd.concat([X_train_est_A, X_train_obs_A])
-    return y_train_obs_A, X_test_est_A, X_a
+    return y_train_obs_A, X_test_est_A, X_train_est_A, X_train_obs_A
   elif(location == 2):
     y_train_obs_B = pd.read_parquet('data/B/train_targets.parquet')
     X_test_est_B = pd.read_parquet('data/B/X_test_estimated.parquet' )
     X_train_est_B = pd.read_parquet('data/B/X_train_estimated.parquet')
     X_train_obs_B = pd.read_parquet('data/B/X_train_observed.parquet')
-    X_b = pd.concat([X_train_est_B, X_train_obs_B])
-    return y_train_obs_B, X_test_est_B, X_b
+    return y_train_obs_B, X_test_est_B , X_train_est_B, X_train_obs_B
   else:
     y_train_obs_C = pd.read_parquet('data/C/train_targets.parquet')
     X_test_est_C = pd.read_parquet('data/C/X_test_estimated.parquet')
     X_train_est_C = pd.read_parquet('data/C/X_train_estimated.parquet')
     X_train_obs_C = pd.read_parquet('data/C/X_train_observed.parquet')
     X_c = pd.concat([X_train_est_C, X_train_obs_C])
-    return y_train_obs_C, X_test_est_C, X_c
+    return y_train_obs_C, X_test_est_C, X_train_est_C, X_train_obs_C
 
 def resize_training_data(X_train, y_train):
     y_features = y_train.columns.tolist()
