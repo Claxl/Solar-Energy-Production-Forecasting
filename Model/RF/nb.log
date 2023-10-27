@@ -1,0 +1,69 @@
+Autosaving every 5 seconds
+[I 2023-10-26 10:28:39,450] A new study created in memory with name: no-name-c1b63805-ea3a-4961-8ffb-d9ebc4b1e0ae
+Mean Absolute Error: 189.46878319157562
+[W 2023-10-26 12:48:56,883] Trial 0 failed with parameters: {'n_estimators': 254, 'max_depth': 42, 'min_samples_split': 119, 'min_samples_leaf': 59, 'max_features': None, 'max_leaf_nodes': 113} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\optuna\study\_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "C:\Users\claxl\AppData\Local\Temp\ipykernel_31476\2873245054.py", line 26, in objective
+    model.fit(X_train, y_train)
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\sklearn\base.py", line 1151, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\sklearn\ensemble\_forest.py", line 456, in fit
+    trees = Parallel(
+            ^^^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\sklearn\utils\parallel.py", line 65, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\joblib\parallel.py", line 1088, in __call__
+    while self.dispatch_one_batch(iterator):
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 597, in __init__
+    self.results = batch()
+                   ^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\joblib\parallel.py", line 288, in __call__
+    return [func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\joblib\parallel.py", line 288, in <listcomp>
+    return [func(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\sklearn\utils\parallel.py", line 127, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\sklearn\ensemble\_forest.py", line 188, in _parallel_build_trees
+    tree.fit(X, y, sample_weight=curr_sample_weight, check_input=False)
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\sklearn\base.py", line 1151, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\sklearn\tree\_classes.py", line 1320, in fit
+    super()._fit(
+  File "C:\Users\claxl\anaconda3\Lib\site-packages\sklearn\tree\_classes.py", line 443, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+KeyboardInterrupt
+[W 2023-10-26 12:48:56,886] Trial 0 failed with value None.
+Fitting 2 folds for each of 100 candidates, totalling 200 fits
+
+KeyboardInterrupt
+
+Fitting 2 folds for each of 100 candidates, totalling 200 fits
+Mean Absolute Error: 189.2778818213772
+Fitting 2 folds for each of 100 candidates, totalling 200 fits
+Mean Absolute Error: 197.2684275794724
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Mean Absolute Error: 189.40799113796447
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Mean Absolute Error: 194.91674291818617
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Mean Absolute Error: 190.4619117807617
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Mean Absolute Error: 191.38119400284674
