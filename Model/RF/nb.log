@@ -67,3 +67,122 @@ Fitting 5 folds for each of 100 candidates, totalling 500 fits
 Mean Absolute Error: 190.4619117807617
 Fitting 5 folds for each of 100 candidates, totalling 500 fits
 Mean Absolute Error: 191.38119400284674
+Autosaving every 5 seconds
+C:\Users\claxl\AppData\Local\Temp\ipykernel_11244\2409565943.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_selected['pv_measurement'] = data['pv_measurement']
+Autosaving every 5 seconds
+Autosaving every 5 seconds
+C:\Users\claxl\AppData\Local\Temp\ipykernel_2756\2409565943.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_selected['pv_measurement'] = data['pv_measurement']
+C:\Users\claxl\AppData\Local\Temp\ipykernel_32544\2409565943.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_selected['pv_measurement'] = data['pv_measurement']
+Autosaving every 5 seconds
+No such comm target registered: jupyter.widget.control
+No such comm: f3f87e50-fbae-4ab9-85bd-a8cbeb0af0db
+Autosaving every 5 seconds
+C:\Users\claxl\AppData\Local\Temp\ipykernel_30300\3950148861.py:6: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_selected['pv_measurement'] = data['pv_measurement']
+Le migliori 5 feature sono:
+Feature 10: Importance 0.7145737681744555
+Feature 53: Importance 0.10790111453004733
+Feature 35: Importance 0.014909648552700888
+Feature 4: Importance 0.012103904093447226
+Feature 42: Importance 0.008194001387642905
+Le migliori 5 feature sono:
+Feature 'direct_rad:W': Importance 0.7145737681744555
+Feature 'Total Solar Radiation (W/m²)': Importance 0.10790111453004733
+Feature 'sun_azimuth:d': Importance 0.014909648552700888
+Feature 'clear_sky_rad:W': Importance 0.012103904093447226
+Feature 'wind_speed_u_10m:ms': Importance 0.008194001387642905
+Le migliori 10 feature sono:
+Feature 'direct_rad:W': Importance 0.7145737681744555
+Feature 'Total Solar Radiation (W/m²)': Importance 0.10790111453004733
+Feature 'sun_azimuth:d': Importance 0.014909648552700888
+Feature 'clear_sky_rad:W': Importance 0.012103904093447226
+Feature 'wind_speed_u_10m:ms': Importance 0.008194001387642905
+Feature 'wind_speed_v_10m:ms': Importance 0.00795120107581911
+Feature 'diffuse_rad:W': Importance 0.007906271066945459
+Feature 'ceiling_height_agl:m': Importance 0.006770872426582666
+Feature 'wind_speed_10m:ms': Importance 0.00661237652883357
+Feature 'cloud_base_agl:m': Importance 0.006557213882825196
+Le migliori 15 feature sono:
+Feature 'direct_rad:W': Importance 0.7145737681744555
+Feature 'Total Solar Radiation (W/m²)': Importance 0.10790111453004733
+Feature 'sun_azimuth:d': Importance 0.014909648552700888
+Feature 'clear_sky_rad:W': Importance 0.012103904093447226
+Feature 'wind_speed_u_10m:ms': Importance 0.008194001387642905
+Feature 'wind_speed_v_10m:ms': Importance 0.00795120107581911
+Feature 'diffuse_rad:W': Importance 0.007906271066945459
+Feature 'ceiling_height_agl:m': Importance 0.006770872426582666
+Feature 'wind_speed_10m:ms': Importance 0.00661237652883357
+Feature 'cloud_base_agl:m': Importance 0.006557213882825196
+Feature 'total_cloud_cover:p': Importance 0.006509236517208618
+Feature 'sun_elevation:d': Importance 0.0062801609558122765
+Feature 'direct_rad_1h:J': Importance 0.0062765082497976
+Feature 'clear_sky_energy_1h:J': Importance 0.006232544880075527
+Feature 'effective_cloud_cover:p': Importance 0.006176338884653226
+Le migliori 8 feature sono:
+Feature 'direct_rad:W': Importance 0.7145737681744555
+Feature 'Total Solar Radiation (W/m²)': Importance 0.10790111453004733
+Feature 'sun_azimuth:d': Importance 0.014909648552700888
+Feature 'clear_sky_rad:W': Importance 0.012103904093447226
+Feature 'wind_speed_u_10m:ms': Importance 0.008194001387642905
+Feature 'wind_speed_v_10m:ms': Importance 0.00795120107581911
+Feature 'diffuse_rad:W': Importance 0.007906271066945459
+Feature 'ceiling_height_agl:m': Importance 0.006770872426582666
+Le migliori 8 feature sono:
+Feature 'direct_rad:W': Importance 0.7145737681744555
+Feature 'Total Solar Radiation (W/m²)': Importance 0.10790111453004733
+Feature 'sun_azimuth:d': Importance 0.014909648552700888
+Feature 'clear_sky_rad:W': Importance 0.012103904093447226
+Feature 'wind_speed_u_10m:ms': Importance 0.008194001387642905
+Feature 'wind_speed_v_10m:ms': Importance 0.00795120107581911
+Feature 'diffuse_rad:W': Importance 0.007906271066945459
+Feature 'ceiling_height_agl:m': Importance 0.006770872426582666
+Le migliori 8 feature sono:
+Feature 'direct_rad:W': Importance 0.7145737681744555
+Feature 'Total Solar Radiation (W/m²)': Importance 0.10790111453004733
+Feature 'sun_azimuth:d': Importance 0.014909648552700888
+Feature 'clear_sky_rad:W': Importance 0.012103904093447226
+Feature 'wind_speed_u_10m:ms': Importance 0.008194001387642905
+Feature 'wind_speed_v_10m:ms': Importance 0.00795120107581911
+Feature 'diffuse_rad:W': Importance 0.007906271066945459
+Feature 'ceiling_height_agl:m': Importance 0.006770872426582666
+Migliori iperparametri: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+Miglior MAE: 0.21643049467479208
+Le migliori 8 feature sono:
+Feature 'direct_rad:W': Importance 0.7145737681744555
+Feature 'Total Solar Radiation (W/m²)': Importance 0.10790111453004733
+Feature 'sun_azimuth:d': Importance 0.014909648552700888
+Feature 'clear_sky_rad:W': Importance 0.012103904093447226
+Feature 'wind_speed_u_10m:ms': Importance 0.008194001387642905
+Feature 'wind_speed_v_10m:ms': Importance 0.00795120107581911
+Feature 'diffuse_rad:W': Importance 0.007906271066945459
+Feature 'ceiling_height_agl:m': Importance 0.006770872426582666
+Le migliori 8 feature sono:
+Feature 'direct_rad:W': Importance 0.7145737681744555
+Feature 'Total Solar Radiation (W/m²)': Importance 0.10790111453004733
+Feature 'sun_azimuth:d': Importance 0.014909648552700888
+Feature 'clear_sky_rad:W': Importance 0.012103904093447226
+Feature 'wind_speed_u_10m:ms': Importance 0.008194001387642905
+Feature 'wind_speed_v_10m:ms': Importance 0.00795120107581911
+Feature 'diffuse_rad:W': Importance 0.007906271066945459
+Feature 'ceiling_height_agl:m': Importance 0.006770872426582666
+Migliori iperparametri: {'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 100}
+Miglior MAE: 194.41786192214408
